@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase SDK</title>
+</head>
+
+<body>
+
+    <ul id="listPerso">
+    </ul>
+
+    <input id="getPersonnage"></input>
+    <button id="addPersonnage">Add perso</button>
+
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyA0iXg6gn4hUNcvZUzsfiBs6XOOVO8lI7E",
+            authDomain: "the-walking-dead-bbaea.firebaseapp.com",
+            databaseURL: "https://the-walking-dead-bbaea.firebaseio.com",
+            projectId: "the-walking-dead-bbaea",
+            storageBucket: "",
+            messagingSenderId: "1010422210886"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
