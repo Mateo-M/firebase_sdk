@@ -11,12 +11,12 @@ firebase.initializeApp(config);
 let database = firebase.database().ref();
 
 const uiConfig = {
-    signInSuccessUrl: 'http://localhost:8080/list.html',
+    signInSuccessUrl: 'https://mateo-m.github.io/firebase_sdk/list.html',
     signInOptions: [
         firebase.auth.EmailAuthProvider.PROVIDER_ID
     ],
     // Terms of service url.
-    tosUrl: 'http://localhost:8080/cgu' // conditions générales d'utilisation
+    tosUrl: 'https://mateo-m.github.io/firebase_sdk/cgu' // conditions générales d'utilisation
 };
 
 // Initialize the FirebaseUI Widget using Firebase.
